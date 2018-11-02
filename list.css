@@ -1,8 +1,38 @@
 .red {color: red;}
 
 body {
-	padding: 10px;
-	font-family: sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Interstate-Bold","helvetica-neue",helvetica,sans-serif;
+	background-color: #fff;
+	
+	
+}
+.header{
+	background-color: #e4002b;
+}
+
+.title{
+	text-align: center;
+	padding: 15px 0px;
+    margin-top: 0px;
+	color: #fff;
+}
+.search_bar{
+	margin: 0px 45px 0px 10px;
+}
+
+.ml-input-filter{
+	width: 59%;
+	height: 35px;
+	border-radius: 15px;
+	font-size: 16px;
+	color: black;
+	outline: none;
+	padding: 0px 0px 0px 20px;
+	border: 2px solid #727885;
+	margin-left: 20%;
+	
 }
 .box{
     color: #000;
@@ -14,19 +44,21 @@ body {
 input[type="checkbox"] {
     display: none;
 }
-.list_container {
+.container {
 	float:left;
-	width: 25%;
+	width: 15%;
 	margin: 10px;
 	padding: 20px;
-	background-color: #F7F7F7;
+	background-color: #f7f7f7;
+	border-radius: 15px;
 }
 .work {
-    width: 65%;
+    width: 55%;
 }
-.list_container.work h2 {
+.container.work h3 {
     text-align: center;
     margin: 0;
+	color: #e4002b;
 }
 
 .options_container {
@@ -52,7 +84,7 @@ input[type="checkbox"] {
 
 .ml-ul label {
 	width: 100%;
-	font-size: 16px;
+	font-size: 15px;
 	font-family: sans-serif;
 	cursor: pointer;
 	padding: 0px !important;
@@ -65,7 +97,7 @@ input[type="checkbox"] {
 
 
 .ml-input-container .ml-input-filter {
-	width: 100%;
+	width: 97%;
 	height: 34px;
 	padding: 5px 0px 5px 10px;
 	font-size: 14px;
@@ -79,9 +111,9 @@ input[type="checkbox"] {
 
 
 .ml-li {
-	border-bottom: 1px solid #D0DBE0;
 	padding: 10px 10px 7px 10px;
 	margin-right: 10px;
+	text-align: center;
 }
 
 .ml-li input {
