@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Visualisation</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/list.css">
+	<!-- jQuery PlugIn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Sortable Plugin -->
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	
+	<script type="text/javascript" src="./js/workarea.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/scatterplot.css">
+	
+</head>
+<body>
+	
+		<div class="header">  
+			<h2 class="title">Text-Visualization</h2>
+		</div>
+        
+		<!-- Left Panel -->
+        <!-- <div class="search_bar">
+            <input id="myInput" class="ml-input-filter" type="text" placeholder=" Search" name="Search" >
+		</div> -->
+        
+		<div class="container nput-container" id="left">            
+		</div>     	
+        <div class="scatter-top-container">
+		<!-- WorkArea -->
+                <div class="container work scatter-workarea">
+        	<h3>Workspace</h3>
+                </div>
+                <svg class="container scatter-svg"></svg>
+            </div>
+                <!-----------container------------>
+
+        <!-- Right Panel -->
+        <div class="container nput-container" id="right">
+            
+		</div>
+<script src="./js/d3.v3.js"></script>
+<script src="./js/scatterplot.js"></script>
+</body>
+</html>
