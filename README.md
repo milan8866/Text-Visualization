@@ -2,9 +2,13 @@
 
 In this project, there are several text paragraphs are locally stored in folder and user can drag and drop those paragraphs in workspace area and user can visualize it. By using natural language processing i found some entities which are common in those dataset and i made graph visulization by performing MDS(multi-dimentional scalling).
 
+# User-Interface
+
+![alt text](https://raw.githubusercontent.com/milan8866/Text-Visualization/master/ss.jpg)
+
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software.
 
 ```
 PHP
